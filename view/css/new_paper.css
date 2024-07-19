@@ -1,0 +1,80 @@
+.add-paper {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-paper h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+ 
+.add-paper form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-paper label {
+    font-weight: bold;
+}
+.add-paper #participants label {
+    margin-bottom: 20px;
+}
+
+.add-paper input[type="text"],
+.add-paper textarea,
+.add-paper select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.add-paper button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-paper button:hover {
+    background-color: #0056b3;
+}
+
+.participant {
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.participant input[type="text"],
+.participant select {
+    width: calc(50% - 10px);
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.participant button {
+    /* padding: 8px 12px; */
+    /* padding: 0; */
+    margin: 0;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.participant button:hover {
+    background-color: #bd2130;
+}

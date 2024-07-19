@@ -1,0 +1,42 @@
+
+.dropdown-menu{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.dropdown-menu form{
+    width: 50%;
+    height: 40%;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 5px;
+}
+.dropdown-menu .mb-3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.dropdown-menu .mb-3 input{
+    height: 30px;
+}
+.form-check{
+    display: flex;
+    align-items: center;
+}
+.form-check input{
+    margin-right: 10px;
+}
+.dropdown-menu button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(44, 4, 203);
+}
